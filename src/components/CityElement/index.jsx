@@ -1,11 +1,10 @@
 import { useContext } from 'react'
-import {WeatherDataContext} from "../../App.jsx"
+import { WeatherDataContext } from '../WeatherElement'
 
 const CityElement = () => {
 
     const value = useContext(WeatherDataContext)
 
-    console.log(value)
 
     return (
         <>

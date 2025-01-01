@@ -1,5 +1,5 @@
 import { useContext } from 'react'
-import { WeatherDataContext } from '../../App.jsx'
+import { WeatherDataContext } from '../WeatherElement'
 
 const WeatherIconElement = () => {
 
@@ -7,7 +7,6 @@ const WeatherIconElement = () => {
     if (!weather) return null
     const weatherData = weather[0]
     const icon = weatherData.icon
-    console.log(icon)
     return (
         <>
             <img src={`http://openweathermap.org/img/wn/${icon}@2x.png`} alt="weather icon" />

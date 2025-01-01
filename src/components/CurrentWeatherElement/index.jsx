@@ -1,8 +1,8 @@
 import { useContext } from 'react'
-import { WeatherDataContext } from "../../App.jsx"
+import { WeatherDataContext } from '../WeatherElement'
 
 const CurrentWeatherElement = () => {
-    const { weather } = useContext(WeatherDataContext) // Destructure directly
+    const { weather } = useContext(WeatherDataContext)
 
     if (!weather || !Array.isArray(weather) || weather.length === 0) {
         return <p>Loading weather...</p>
