@@ -1,5 +1,6 @@
 import {useContext, useEffect, useState} from 'react'
-import { WeatherDataContext } from '../WeatherElement'
+import { WeatherDataContext } from '../WeatherWidgetElement'
+import './style.css'
 
 const ClockElement = () => {
     const { dt, timezone } = useContext(WeatherDataContext)
@@ -39,10 +40,10 @@ const ClockElement = () => {
     }
 
     return (
-        <>
+        <div className="clock">
             <h4>{ humanReadableTime }</h4>
             <h4>{ humanReadableDate }</h4>
-        </>
+        </div>
     )
 }
 

@@ -1,5 +1,6 @@
 import { useContext } from 'react'
-import { WeatherDataContext } from '../WeatherElement'
+import { WeatherDataContext } from '../WeatherWidgetElement'
+import './style.css'
 
 const CurrentWeatherElement = () => {
     const { weather } = useContext(WeatherDataContext)
@@ -11,10 +12,10 @@ const CurrentWeatherElement = () => {
     const weatherData = weather[0]
 
     return (
-        <>
+        <div className="current-weather">
             <h3>{weatherData.main}</h3>
-            <h4>{weatherData.description}</h4>
-        </>
+            <p>{weatherData.description}</p>
+        </div>
     )
 }
 

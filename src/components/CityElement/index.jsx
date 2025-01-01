@@ -1,5 +1,5 @@
 import { useContext } from 'react'
-import { WeatherDataContext } from '../WeatherElement'
+import { WeatherDataContext } from '../WeatherWidgetElement'
 
 const CityElement = () => {
 
@@ -7,9 +7,9 @@ const CityElement = () => {
 
 
     return (
-        <>
+        <div className="city">
         <h2>{ value.name }</h2>
-        </>
+        </div>
     )
 }
 

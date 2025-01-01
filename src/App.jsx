@@ -1,11 +1,11 @@
 import './App.css'
-import WeatherElement from "./components/WeatherElement/index.jsx"
+import WeatherDashBoardElement from "./components/WeatherDashBoardElement/index.jsx";
 
 function App() {
 
   return (
     <>
-        <WeatherElement />
+        <WeatherDashBoardElement />
     </>
   )
 }
