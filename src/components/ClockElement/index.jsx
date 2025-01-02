@@ -19,8 +19,7 @@ const ClockElement = () => {
 
     const timeOptions = {
         hour: 'numeric',
-        minute: 'numeric',
-        second: 'numeric'
+        minute: 'numeric'
     }
 
     const dateOptions = {

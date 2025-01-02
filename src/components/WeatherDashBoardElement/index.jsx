@@ -9,6 +9,14 @@ const WeatherDashBoardElement = () => {
                 <WeatherWidgetElement location='London' />
                 <WeatherWidgetElement location='Bloxham' />
                 <WeatherWidgetElement location='Valencia' />
+                <WeatherWidgetElement location='Kingston' />
+                <WeatherWidgetElement location='Honolulu' />
+                <WeatherWidgetElement location='Edinburgh' />
+                <WeatherWidgetElement location='Cape Town' />
+                <WeatherWidgetElement location='Sydney' />
+                <WeatherWidgetElement location='Mexico City' />
+                <WeatherWidgetElement location='Rio de Janeiro' />
+                <WeatherWidgetElement location='Moscow' />
             </div>
         </>
     )
